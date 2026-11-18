@@ -1,0 +1,493 @@
+{
+  "generated_by": {
+    "type": "real_vlm_call",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "generated_at": "2026-10-28T16:29:20+00:00"
+  },
+  "summary": {
+    "images_tested": 3,
+    "succeeded": 3,
+    "failed": 0
+  },
+  "note": "Values are model readings of chart images. 'estimated' values are approximate; verify against the source paper before relying on them.",
+  "results": [
+    {
+      "image": "fig1.png",
+      "source": null,
+      "sha256": "ff80a096908e5ebd848daca6f9655725352cc0e9f7902ebef3af810e498aa6a1",
+      "status": "ok",
+      "extraction": {
+        "chart_title": "Chart-type classification (7 classes)",
+        "chart_type": "bar",
+        "x_axis": {
+          "label": "Training dataset size (number of images per class)",
+          "unit": null
+        },
+        "y_axis": {
+          "label": "Average accuracy",
+          "unit": "%"
+        },
+        "baseline_values": [
+          {
+            "label": "1",
+            "value": 32.0,
+            "unit": "%",
+            "series": "Input vs. random train image from each class (Simplified VGG)",
+            "reading_type": "estimated",
+            "note": "Estimated baseline value for size 1"
+          },
+          {
+            "label": "1",
+            "value": 50.8,
+            "unit": "%",
+            "series": "Input vs. random train image from each class (Proposed SCNN)",
+            "reading_type": "estimated",
+            "note": "Estimated baseline value for size 1"
+          },
+          {
+            "label": "1",
+            "value": 32.0,
+            "unit": "%",
+            "series": "Input vs. highest similarity image from each class (Simplified VGG)",
+            "reading_type": "estimated",
+            "note": "Estimated baseline value for size 1"
+          },
+          {
+            "label": "1",
+            "value": 50.8,
+            "unit": "%",
+            "series": "Input vs. highest similarity image from each class (Proposed SCNN)",
+            "reading_type": "estimated",
+            "note": "Estimated baseline value for size 1"
+          }
+        ],
+        "peak_performance": {
+          "label": "100",
+          "value": 100.0,
+          "unit": "%",
+          "series": "All series",
+          "reading_type": "estimated",
+          "note": "Peak accuracy of 100% reached at dataset sizes 100, 250, and 500."
+        },
+        "data_points": [
+          {
+            "series": "Input vs. random train image from each class (Simplified VGG)",
+            "x": 1.0,
+            "y": 32.0,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. random train image from each class (Proposed SCNN)",
+            "x": 1.0,
+            "y": 50.8,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. highest similarity image from each class (Simplified VGG)",
+            "x": 1.0,
+            "y": 32.0,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. highest similarity image from each class (Proposed SCNN)",
+            "x": 1.0,
+            "y": 50.8,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. random train image from each class (Simplified VGG)",
+            "x": 5.0,
+            "y": 34.2,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. random train image from each class (Proposed SCNN)",
+            "x": 5.0,
+            "y": 49.3,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. highest similarity image from each class (Simplified VGG)",
+            "x": 5.0,
+            "y": 44.8,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. highest similarity image from each class (Proposed SCNN)",
+            "x": 5.0,
+            "y": 59.3,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. random train image from each class (Simplified VGG)",
+            "x": 10.0,
+            "y": 62.0,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. random train image from each class (Proposed SCNN)",
+            "x": 10.0,
+            "y": 60.1,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. highest similarity image from each class (Simplified VGG)",
+            "x": 10.0,
+            "y": 77.8,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. highest similarity image from each class (Proposed SCNN)",
+            "x": 10.0,
+            "y": 62.9,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. random train image from each class (Simplified VGG)",
+            "x": 20.0,
+            "y": 57.8,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. random train image from each class (Proposed SCNN)",
+            "x": 20.0,
+            "y": 81.3,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. highest similarity image from each class (Simplified VGG)",
+            "x": 20.0,
+            "y": 85.8,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. highest similarity image from each class (Proposed SCNN)",
+            "x": 20.0,
+            "y": 85.8,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. random train image from each class (Simplified VGG)",
+            "x": 50.0,
+            "y": 93.6,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. random train image from each class (Proposed SCNN)",
+            "x": 50.0,
+            "y": 92.8,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. highest similarity image from each class (Simplified VGG)",
+            "x": 50.0,
+            "y": 100.0,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. highest similarity image from each class (Proposed SCNN)",
+            "x": 50.0,
+            "y": 100.0,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. random train image from each class (Simplified VGG)",
+            "x": 100.0,
+            "y": 100.0,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. random train image from each class (Proposed SCNN)",
+            "x": 100.0,
+            "y": 100.0,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. highest similarity image from each class (Simplified VGG)",
+            "x": 100.0,
+            "y": 100.0,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. highest similarity image from each class (Proposed SCNN)",
+            "x": 100.0,
+            "y": 100.0,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. random train image from each class (Simplified VGG)",
+            "x": 250.0,
+            "y": 100.0,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. random train image from each class (Proposed SCNN)",
+            "x": 250.0,
+            "y": 100.0,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. highest similarity image from each class (Simplified VGG)",
+            "x": 250.0,
+            "y": 100.0,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. highest similarity image from each class (Proposed SCNN)",
+            "x": 250.0,
+            "y": 100.0,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. random train image from each class (Simplified VGG)",
+            "x": 500.0,
+            "y": 100.0,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. random train image from each class (Proposed SCNN)",
+            "x": 500.0,
+            "y": 100.0,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. highest similarity image from each class (Simplified VGG)",
+            "x": 500.0,
+            "y": 100.0,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "Input vs. highest similarity image from each class (Proposed SCNN)",
+            "x": 500.0,
+            "y": 100.0,
+            "reading_type": "estimated",
+            "note": null
+          }
+        ],
+        "series": [
+          "Input vs. random train image from each class (Simplified VGG)",
+          "Input vs. random train/test image from each class (Proposed SCNN)",
+          "Input vs. highest similarity image from each class (Simplified VGG)",
+          "Input vs. highest similarity image from each class (Proposed SCNN)"
+        ],
+        "trend_summary": "Average accuracy generally increases as the training dataset size per class increases, eventually reaching 100% for all models at sizes of 100, 250, and 500 images per class.",
+        "evidence": [
+          "Visual inspection of clustered bar heights corresponding to increasing values on the x-axis from 1 to 500.",
+          "Y-axis values spanning from 0% to 100%."
+        ],
+        "uncertainties": [
+          "Exact numerical values were estimated visually from the bar chart without explicit data labels."
+        ]
+      },
+      "error": null
+    },
+    {
+      "image": "fig2.png",
+      "source": null,
+      "sha256": "849d7ae2267dd40f344c5743ecc392abd00194a7b8b9af26545d2c40c21438ba",
+      "status": "ok",
+      "extraction": {
+        "chart_title": "Impact of batch size and dataset size on generator and discriminator loss",
+        "chart_type": "bar",
+        "x_axis": {
+          "label": "[4, 128] - batch size, [1,000, 20,000] - dataset size",
+          "unit": null
+        },
+        "y_axis": {
+          "label": "Loss",
+          "unit": null
+        },
+        "baseline_values": [],
+        "peak_performance": null,
+        "data_points": [],
+        "series": [
+          "Generator loss",
+          "Discriminator loss"
+        ],
+        "trend_summary": "The chart displays generator loss and discriminator loss across various dataset sizes (1,000 to 20,000) and batch sizes (4 to 128). The loss values fluctuate significantly depending on the hyperparameter combinations, with many values reaching the upper limit of 5 for either generator or discriminator loss.",
+        "evidence": [
+          "Visual inspection of grouped bar chart comparing batch sizes 4, 8, 16, 32, 64, 128 across dataset sizes 1,000, 2,500, 5,000, 10,000, and 20,000."
+        ],
+        "uncertainties": [
+          "Exact numerical values for individual bars cannot be precisely read without grid/data table access, only visually estimated relative to the y-axis."
+        ]
+      },
+      "error": null
+    },
+    {
+      "image": "fig3.png",
+      "source": null,
+      "sha256": "487b1a10eb2f088ce9219c2f9770b2c848fdc48bcda626d55a8c3c4eb0a18652",
+      "status": "ok",
+      "extraction": {
+        "chart_title": "Evaluation metrics after 150 epoch",
+        "chart_type": "bar",
+        "x_axis": {
+          "label": "[32, 128] - batch size\n[2,500, 10,000] - dataset size",
+          "unit": null
+        },
+        "y_axis": {
+          "label": "Score",
+          "unit": null
+        },
+        "baseline_values": [
+          {
+            "label": "2,500 dataset size, 32 batch size",
+            "value": 0.06,
+            "unit": null,
+            "series": "FID",
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "label": "2,500 dataset size, 32 batch size",
+            "value": 1.73,
+            "unit": null,
+            "series": "IS",
+            "reading_type": "estimated",
+            "note": null
+          }
+        ],
+        "peak_performance": {
+          "label": "5,000 dataset size, 128 batch size",
+          "value": 1.89,
+          "unit": null,
+          "series": "IS",
+          "reading_type": "estimated",
+          "note": "Highest IS score observed"
+        },
+        "data_points": [
+          {
+            "series": "FID",
+            "x": "2500_32",
+            "y": 0.06,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "IS",
+            "x": "2500_32",
+            "y": 1.73,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "FID",
+            "x": "2500_64",
+            "y": 0.05,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "IS",
+            "x": "2500_64",
+            "y": 1.74,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "FID",
+            "x": "2500_128",
+            "y": 0.1,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "IS",
+            "x": "2500_128",
+            "y": 1.76,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "FID",
+            "x": "5000_64",
+            "y": 0.04,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "IS",
+            "x": "5000_64",
+            "y": 1.52,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "FID",
+            "x": "5000_128",
+            "y": 0.1,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "IS",
+            "x": "5000_128",
+            "y": 1.89,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "FID",
+            "x": "10000_64",
+            "y": 0.05,
+            "reading_type": "estimated",
+            "note": null
+          },
+          {
+            "series": "IS",
+            "x": "10000_64",
+            "y": 1.71,
+            "reading_type": "estimated",
+            "note": null
+          }
+        ],
+        "series": [
+          "FID",
+          "IS"
+        ],
+        "trend_summary": "FID scores remain consistently low (around 0.04 to 0.1) across all dataset sizes and batch sizes. IS scores remain high (ranging between roughly 1.5 and 1.9), with the highest IS score achieved at a dataset size of 5,000 and batch size of 128.",
+        "evidence": [
+          "Visual bar heights compared against the Y-axis tick marks from 0 to 2.",
+          "Legend indicating blue bars as FID and orange bars as IS."
+        ],
+        "uncertainties": [
+          "Exact numerical values are estimated visually from the Y-axis since data labels are not printed on top of the bars."
+        ]
+      },
+      "error": null
+    }
+  ]
+}

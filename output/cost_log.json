@@ -1,0 +1,93 @@
+{
+  "runs": [
+    {
+      "run_id": "run-1793807873",
+      "label": "Discovery: Sparse Transformers",
+      "calls": 4,
+      "prompt_tokens": 6100,
+      "completion_tokens": 2250,
+      "total_tokens": 8350,
+      "total_cost_usd": 0.040775,
+      "llm_latency_s": 15.3,
+      "estimated_calls": 0,
+      "unpriced_calls": 0,
+      "experiments": [],
+      "by_agent": {
+        "literature_reviewer": {
+          "calls": 1,
+          "prompt_tokens": 1850,
+          "completion_tokens": 420,
+          "total_tokens": 2270,
+          "cost_usd": 0.01185,
+          "latency_s": 4.2
+        },
+        "hypothesis_generator": {
+          "calls": 1,
+          "prompt_tokens": 1200,
+          "completion_tokens": 380,
+          "total_tokens": 1580,
+          "cost_usd": 0.0068,
+          "latency_s": 3.1
+        },
+        "critic": {
+          "calls": 1,
+          "prompt_tokens": 950,
+          "completion_tokens": 250,
+          "total_tokens": 1200,
+          "cost_usd": 0.004875,
+          "latency_s": 2.4
+        },
+        "synthesizer": {
+          "calls": 1,
+          "prompt_tokens": 2100,
+          "completion_tokens": 1200,
+          "total_tokens": 3300,
+          "cost_usd": 0.01725,
+          "latency_s": 5.6
+        }
+      },
+      "records": [
+        {
+          "agent": "literature_reviewer",
+          "model": "claude-3-5-sonnet",
+          "prompt_tokens": 1850,
+          "completion_tokens": 420,
+          "cost_usd": 0.01185,
+          "latency_s": 4.2,
+          "estimated": false,
+          "timestamp": 1793807890.147334
+        },
+        {
+          "agent": "hypothesis_generator",
+          "model": "gpt-4o",
+          "prompt_tokens": 1200,
+          "completion_tokens": 380,
+          "cost_usd": 0.0068,
+          "latency_s": 3.1,
+          "estimated": false,
+          "timestamp": 1793807890.147334
+        },
+        {
+          "agent": "critic",
+          "model": "gpt-4o",
+          "prompt_tokens": 950,
+          "completion_tokens": 250,
+          "cost_usd": 0.004875,
+          "latency_s": 2.4,
+          "estimated": false,
+          "timestamp": 1793807890.147334
+        },
+        {
+          "agent": "synthesizer",
+          "model": "gpt-4o",
+          "prompt_tokens": 2100,
+          "completion_tokens": 1200,
+          "cost_usd": 0.01725,
+          "latency_s": 5.6,
+          "estimated": false,
+          "timestamp": 1793807890.147334
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+{
+  "agent": {
+    "paper_id": "agent:sample-amr-001",
+    "title": "Combining Efflux Pump Inhibition with Low-Dose Beta-Lactams to Slow Resistance Emergence in E. coli",
+    "source": "agent",
+    "domain": "Computational Biology",
+    "novelty": 7.35,
+    "grounding": 9.64,
+    "empirical_validity": 10.0,
+    "formatting": 10.0,
+    "details": {
+      "novelty": {
+        "score": 7.35,
+        "max_similarity": 0.335,
+        "mean_similarity": 0.102,
+        "compared_with": 14
+      },
+      "grounding": {
+        "score": 9.64,
+        "citations": 4,
+        "authentic": 4,
+        "invalid_ids": [],
+        "relevance": 0.909
+      },
+      "empirical_validity": {
+        "score": 10.0,
+        "significant": true,
+        "p_value": 0.004,
+        "effect_size": 0.82,
+        "ci_excludes_zero": true
+      },
+      "formatting": {
+        "score": 10.0,
+        "sections_present": [
+          "abstract",
+          "introduction",
+          "method",
+          "results",
+          "conclusion",
+          "references"
+        ],
+        "missing_sections": [],
+        "abstract_words": 121,
+        "figures": 1,
+        "tables": 1,
+        "references": 5
+      }
+    },
+    "overall": 9.25
+  },
+  "human": [
+    {
+      "paper_id": "arxiv:2406.12815v1",
+      "title": "Privacy Preserving Federated Learning in Medical Imaging with Uncertainty Estimation",
+      "source": "human",
+      "domain": "AI",
+      "novelty": 9.67,
+      "grounding": 10.0,
+      "empirical_validity": 4.0,
+      "formatting": 9.0,
+      "details": {
+        "novelty": {
+          "score": 9.67,
+          "max_similarity": 0.037,
+          "mean_similarity": 0.023,
+          "compared_with": 8
+        },
+        "grounding": {
+          "score": 10.0,
+          "references": 125,
+          "note": "proxy: 25+ references = 10"
+        },
+        "empirical_validity": {
+          "score": 4.0,
+          "significance_reported": false,
+          "statistical_test": true,
+          "uncertainty_reported": false,
+          "repeated_runs": false,
+          "results_tables": true,
+          "result_figures": true
+        },
+        "formatting": {
+          "score": 9.0,
+          "sections_present": [
+            "abstract",
+            "introduction",
+            "method",
+            "conclusion",
+            "references"
+          ],
+          "missing_sections": [
+            "results"
+          ],
+          "abstract_words": 235,
+          "figures": 5,
+          "tables": 3,
+          "references": 125
+        },
+        "text_available": true
+      },
+      "overall": 8.17
+    },
+    {
+      "paper_id": "arxiv:2503.21307v1",
+      "title": "InternVL-X: Advancing and Accelerating InternVL Series with Efficient Visual Token Compression",
+      "source": "human",
+      "domain": "AI",
+      "novelty": 9.75,
+      "grounding": 10.0,
+      "empirical_validity": 4.0,
+      "formatting": 9.0,
+      "details": {
+        "novelty": {
+          "score": 9.75,
+          "max_similarity": 0.029,
+          "mean_similarity": 0.017,
+          "compared_with": 8
+        },
+        "grounding": {
+          "score": 10.0,
+          "references": 57,
+          "note": "proxy: 25+ references = 10"
+        },
+        "empirical_validity": {
+          "score": 4.0,
+          "significance_reported": false,
+          "statistical_test": true,
+          "uncertainty_reported": false,
+          "repeated_runs": false,
+          "results_tables": true,
+          "result_figures": true
+        },
+        "formatting": {
+          "score": 9.0,
+          "sections_present": [
+            "abstract",
+            "introduction",
+            "method",
+            "conclusion",
+            "references"
+          ],
+          "missing_sections": [
+            "results"
+          ],
+          "abstract_words": 225,
+          "figures": 9,
+          "tables": 5,
+          "references": 57
+        },
+        "text_available": true
+      },
+      "overall": 8.19
+    },
+    {
+      "paper_id": "arxiv:2605.27355v2",
+      "title": "Alignment Tampering: How Reinforcement Learning from Human Feedback Is Exploited to Optimize Misaligned Biases",
+      "source": "human",
+      "domain": "AI",
+      "novelty": 9.62,
+      "grounding": 10.0,
+      "empirical_validity": 7.0,
+      "formatting": 10.0,
+      "details": {
+        "novelty": {
+          "score": 9.62,
+          "max_similarity": 0.045,
+          "mean_similarity": 0.023,
+          "compared_with": 8
+        },
+        "grounding": {
+          "score": 10.0,
+          "references": 40,
+          "note": "proxy: 25+ references = 10"
+        },
+        "empirical_validity": {
+          "score": 7.0,
+          "significance_reported": true,
+          "statistical_test": false,
+          "uncertainty_reported": true,
+          "repeated_runs": false,
+          "results_tables": true,
+          "result_figures": true
+        },
+        "formatting": {
+          "score": 10.0,
+          "sections_present": [
+            "abstract",
+            "introduction",
+            "method",
+            "results",
+            "conclusion",
+            "references"
+          ],
+          "missing_sections": [],
+          "abstract_words": 206,
+          "figures": 15,
+          "tables": 16,
+          "references": 40
+        },
+        "text_available": true
+      },
+      "overall": 9.15
+    },
+    {
+      "paper_id": "arxiv:2409.17808v1",
+      "title": "Generative Modeling of Molecular Dynamics Trajectories",
+      "source": "human",
+      "domain": "Computational Biology",
+      "novelty": 8.67,
+      "grounding": 10.0,
+      "empirical_validity": 7.0,
+      "formatting": 8.0,
+      "details": {
+        "novelty": {
+          "score": 8.67,
+          "max_similarity": 0.17,
+          "mean_similarity": 0.046,
+          "compared_with": 8
+        },
+        "grounding": {
+          "score": 10.0,
+          "references": 49,
+          "note": "proxy: 25+ references = 10"
+        },
+        "empirical_validity": {
+          "score": 7.0,
+          "significance_reported": false,
+          "statistical_test": true,
+          "uncertainty_reported": true,
+          "repeated_runs": true,
+          "results_tables": true,
+          "result_figures": true
+        },
+        "formatting": {
+          "score": 8.0,
+          "sections_present": [
+            "abstract",
+            "introduction",
+            "method",
+            "references"
+          ],
+          "missing_sections": [
+            "results",
+            "conclusion"
+          ],
+          "abstract_words": 163,
+          "figures": 11,
+          "tables": 4,
+          "references": 49
+        },
+        "text_available": true
+      },
+      "overall": 8.42
+    },
+    {
+      "paper_id": "arxiv:2506.16091v1",
+      "title": "Geometric deep learning assists protein engineering. Opportunities and Challenges",
+      "source": "human",
+      "domain": "Computational Biology",
+      "novelty": 8.68,
+      "grounding": 10.0,
+      "empirical_validity": 4.0,
+      "formatting": 6.5,
+      "details": {
+        "novelty": {
+          "score": 8.68,
+          "max_similarity": 0.169,
+          "mean_similarity": 0.044,
+          "compared_with": 8
+        },
+        "grounding": {
+          "score": 10.0,
+          "references": 191,
+          "note": "proxy: 25+ references = 10"
+        },
+        "empirical_validity": {
+          "score": 4.0,
+          "significance_reported": false,
+          "statistical_test": true,
+          "uncertainty_reported": false,
+          "repeated_runs": true,
+          "results_tables": false,
+          "result_figures": true
+        },
+        "formatting": {
+          "score": 6.5,
+          "sections_present": [
+            "abstract",
+            "introduction",
+            "references"
+          ],
+          "missing_sections": [
+            "method",
+            "results",
+            "conclusion"
+          ],
+          "abstract_words": 167,
+          "figures": 4,
+          "tables": 0,
+          "references": 191
+        },
+        "text_available": true
+      },
+      "overall": 7.29
+    },
+    {
+      "paper_id": "arxiv:2603.01752v2",
+      "title": "Causal Circuit Tracing Reveals Distinct Computational Architectures in Single-Cell Foundation Models: Inhibitory Dominance, Biological Coherence, and Cross-Model Convergence",
+      "source": "human",
+      "domain": "Computational Biology",
+      "novelty": 9.41,
+      "grounding": 10.0,
+      "empirical_validity": 9.0,
+      "formatting": 7.5,
+      "details": {
+        "novelty": {
+          "score": 9.41,
+          "max_similarity": 0.074,
+          "mean_similarity": 0.024,
+          "compared_with": 8
+        },
+        "grounding": {
+          "score": 10.0,
+          "references": 30,
+          "note": "proxy: 25+ references = 10"
+        },
+        "empirical_validity": {
+          "score": 9.0,
+          "significance_reported": true,
+          "statistical_test": true,
+          "uncertainty_reported": true,
+          "repeated_runs": false,
+          "results_tables": true,
+          "result_figures": true
+        },
+        "formatting": {
+          "score": 7.5,
+          "sections_present": [
+            "abstract",
+            "introduction",
+            "method",
+            "results",
+            "references"
+          ],
+          "missing_sections": [
+            "conclusion"
+          ],
+          "abstract_words": 24,
+          "figures": 13,
+          "tables": 10,
+          "references": 30
+        },
+        "text_available": true
+      },
+      "overall": 8.98
+    },
+    {
+      "paper_id": "arxiv:2411.05033v1",
+      "title": "Diagonalization without Diagonalization: A Direct Optimization Approach for Solid-State Density Functional Theory",
+      "source": "human",
+      "domain": "Physics",
+      "novelty": 9.55,
+      "grounding": 9.6,
+      "empirical_validity": 1.0,
+      "formatting": 8.5,
+      "details": {
+        "novelty": {
+          "score": 9.55,
+          "max_similarity": 0.057,
+          "mean_similarity": 0.019,
+          "compared_with": 8
+        },
+        "grounding": {
+          "score": 9.6,
+          "references": 24,
+          "note": "proxy: 25+ references = 10"
+        },
+        "empirical_validity": {
+          "score": 1.0,
+          "significance_reported": false,
+          "statistical_test": false,
+          "uncertainty_reported": false,
+          "repeated_runs": false,
+          "results_tables": false,
+          "result_figures": true
+        },
+        "formatting": {
+          "score": 8.5,
+          "sections_present": [
+            "abstract",
+            "introduction",
+            "method",
+            "conclusion",
+            "references"
+          ],
+          "missing_sections": [
+            "results"
+          ],
+          "abstract_words": 168,
+          "figures": 4,
+          "tables": 0,
+          "references": 24
+        },
+        "text_available": true
+      },
+      "overall": 7.16
+    },
+    {
+      "paper_id": "arxiv:2509.08023v2",
+      "title": "PyPAS -- Python package for Positron Annihilation Spectroscopy Doppler Broadening Analysis",
+      "source": "human",
+      "domain": "Physics",
+      "novelty": 9.68,
+      "grounding": 4.4,
+      "empirical_validity": 6.0,
+      "formatting": 8.0,
+      "details": {
+        "novelty": {
+          "score": 9.68,
+          "max_similarity": 0.038,
+          "mean_similarity": 0.017,
+          "compared_with": 8
+        },
+        "grounding": {
+          "score": 4.4,
+          "references": 11,
+          "note": "proxy: 25+ references = 10"
+        },
+        "empirical_validity": {
+          "score": 6.0,
+          "significance_reported": false,
+          "statistical_test": true,
+          "uncertainty_reported": true,
+          "repeated_runs": false,
+          "results_tables": true,
+          "result_figures": true
+        },
+        "formatting": {
+          "score": 8.0,
+          "sections_present": [
+            "abstract",
+            "introduction",
+            "conclusion",
+            "references"
+          ],
+          "missing_sections": [
+            "method",
+            "results"
+          ],
+          "abstract_words": 205,
+          "figures": 7,
+          "tables": 2,
+          "references": 11
+        },
+        "text_available": true
+      },
+      "overall": 7.02
+    },
+    {
+      "paper_id": "arxiv:2607.05559v1",
+      "title": "EquiFiLM: Charge-Conditioned Equivariant Force Fields via Feature-wise Linear Modulation",
+      "source": "human",
+      "domain": "Physics",
+      "novelty": 9.37,
+      "grounding": 10.0,
+      "empirical_validity": 5.0,
+      "formatting": 10.0,
+      "details": {
+        "novelty": {
+          "score": 9.37,
+          "max_similarity": 0.074,
+          "mean_similarity": 0.038,
+          "compared_with": 8
+        },
+        "grounding": {
+          "score": 10.0,
+          "references": 33,
+          "note": "proxy: 25+ references = 10"
+        },
+        "empirical_validity": {
+          "score": 5.0,
+          "significance_reported": false,
+          "statistical_test": false,
+          "uncertainty_reported": true,
+          "repeated_runs": true,
+          "results_tables": true,
+          "result_figures": true
+        },
+        "formatting": {
+          "score": 10.0,
+          "sections_present": [
+            "abstract",
+            "introduction",
+            "method",
+            "results",
+            "conclusion",
+            "references"
+          ],
+          "missing_sections": [],
+          "abstract_words": 271,
+          "figures": 12,
+          "tables": 8,
+          "references": 33
+        },
+        "text_available": true
+      },
+      "overall": 8.59
+    }
+  ],
+  "human_average": {
+    "novelty": 9.38,
+    "grounding": 9.33,
+    "empirical_validity": 5.22,
+    "formatting": 8.5,
+    "overall": 8.11
+  }
+}

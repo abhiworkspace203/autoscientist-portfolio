@@ -1,0 +1,295 @@
+[
+  {
+    "paper_id": "arxiv:2610.12466v1",
+    "source": "arxiv",
+    "source_id": "2610.12466v1",
+    "title": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
+    "abstract": "METR's 50\\% time horizon measures the human completion time of software tasks that an AI solves with 50\\% probability, allowing AI capabilities to be expressed in interpretable units. On 228 tasks and 26 AIs, we recompute the time horizons using splines and item-response theory to relax the assumption that the AI difficulty of a task depends linearly on the log of human time. Our fitted spline can be interpreted as a function that \\emph{converts} human time to AI difficulty; it is nearly flat in a region from 2--30 min but close to linear elsewhere. Hence, a time-horizon jump from 3 min to 30 min is much easier than one from 30 min to 5 hours despite the same multiplier of $10 \\times$. Overall, we contribute time-horizon point estimates that perform better under a cross-validated suite of proper scoring rules, as well as diagnostic plots for assessing time horizons' construct validity. We suggest that time horizons be interpreted together with the diagnostic plots, especially as new time-horizon-based benchmarks are proposed or existing ones grow to include longer tasks.",
+    "authors": [
+      "Drew T. Nguyen",
+      "William Fithian"
+    ],
+    "published_date": "2026-10-08",
+    "url": "http://arxiv.org/abs/2610.12466v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.12466v1",
+    "doi": null,
+    "categories": [
+      "cs.AI"
+    ],
+    "journal": null,
+    "retrieved_at": "2026-10-11T07:21:46+00:00"
+  },
+  {
+    "paper_id": "arxiv:2610.12463v1",
+    "source": "arxiv",
+    "source_id": "2610.12463v1",
+    "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
+    "abstract": "In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coordinated across runs, and compromised parts of Hugging Face's production environment. Anthropic reported cases in which a misconfigured third-party environment exposed real systems to agents pursuing simulated cyber tasks. In a separately reported evaluation, Google's Gemini accessed three real organizations through an unintended internet route; Google stated that the model stopped in all three instances. Taken together, the cases show why an evaluation cannot rely on an assumed boundary. That boundary must be verified while the agent is operating. This comparative instrumental case study develops a Proactive Agent Security Assurance Cycle (PASAC) and a five-layer Boundary Assurance Stack. The framework combines risk-tiered task design, executable scope contracts, pre-run validation, least-capability access, independent egress enforcement, credential restrictions, cross-run monitoring, automatic stop conditions, and evidence-based reauthorization. A leading-indicator model, nine design propositions, and seven falsifiable hypotheses turn these lessons into a testable research program. Because the public Gemini record is limited to attributed statements and journalism, its detailed causal mechanism remains provisional. The central conclusion is straightforward: proactive agent security requires continuous assurance across the full execution system, not confidence in any single sandbox or safeguard.",
+    "authors": [
+      "Abbas Raftari"
+    ],
+    "published_date": "2026-10-08",
+    "url": "http://arxiv.org/abs/2610.12463v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.12463v1",
+    "doi": null,
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "journal": null,
+    "retrieved_at": "2026-10-11T07:21:46+00:00"
+  },
+  {
+    "paper_id": "arxiv:2610.12452v1",
+    "source": "arxiv",
+    "source_id": "2610.12452v1",
+    "title": "BrickBench: Evaluating Agentic Brick Design",
+    "abstract": "We propose BrickBench, a benchmark for agentic text-conditioned LEGO-set design. Given a prompt, an agent is tasked with producing an assembly that not only satisfies semantic and design criteria, but that can also be physically built. To do so, it must select parts from a discrete library and reason jointly about local and global constraints. We score validity, alignment, and design across three settings that vary in scale and part availability. We provide BrickAgent, an environment for coding agents to construct, inspect, and validate their designs. We find that leading agents largely satisfy verifiable physical and semantic requirements, but fall short of human designs. We release our benchmark and environment at http://www.brickben.ch",
+    "authors": [
+      "Peter Kulits",
+      "Yiqing Xu",
+      "R. Kenny Jones",
+      "Cordelia Schmid",
+      "Jiajun Wu"
+    ],
+    "published_date": "2026-10-08",
+    "url": "http://arxiv.org/abs/2610.12452v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.12452v1",
+    "doi": null,
+    "categories": [
+      "cs.AI",
+      "cs.CV",
+      "cs.GR"
+    ],
+    "journal": null,
+    "retrieved_at": "2026-10-11T07:21:46+00:00"
+  },
+  {
+    "paper_id": "arxiv:2610.12449v1",
+    "source": "arxiv",
+    "source_id": "2610.12449v1",
+    "title": "Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems",
+    "abstract": "Bifurcations are ubiquitous in physical systems, from structural buckling to fluid and climate dynamics, yet they remain largely unexplored in deep learning. At a symmetry-breaking bifurcation, a single input admits multiple equally valid solutions, violating the one-to-one assumption underlying most learned physical surrogates. We introduce Bi-FORK, a generative framework for learning these one-to-many solution maps in high-dimensional systems. Bi-FORK generates complete trajectories through latent flow matching, preserving space and time coherence, and uses repulsion-guided sampling to recover distinct solution branches in a single amortized pass. We evaluate Bi-FORK on buckling beams, mechanical metamaterials, and Allen-Cahn phase separation, spanning continuous, discrete, and field-valued bifurcations with discretizations up to 260,000 points. Bi-FORK recovers the multimodal solution structure while scaling several orders of magnitude beyond prior approaches, opening generative modeling to high-dimensional bifurcating physical systems.",
+    "authors": [
+      "Anna Zimmel",
+      "Fleur Hendriks",
+      "Markus Holzleitner",
+      "Florian Sestak",
+      "Martin Weichselbaumer",
+      "Vlado Menkovski",
+      "Johannes Brandstetter"
+    ],
+    "published_date": "2026-10-08",
+    "url": "http://arxiv.org/abs/2610.12449v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.12449v1",
+    "doi": null,
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CE",
+      "physics.comp-ph"
+    ],
+    "journal": null,
+    "retrieved_at": "2026-10-11T07:21:46+00:00"
+  },
+  {
+    "paper_id": "arxiv:2610.12445v1",
+    "source": "arxiv",
+    "source_id": "2610.12445v1",
+    "title": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
+    "abstract": "Recent incidents have highlighted the challenge of monitoring LLM agents and the danger of models deceiving people. We show that white-box deception detection via probes can be scaled up to frontier monitoring settings by collecting the largest deception dataset to date for training probes and introducing a novel probe architecture which can aggregate information across many layers and tokens. Our probes achieve 98.8% AUC in SHADE-Arena, surpassing an Opus 5.5 text-monitoring baseline, and show improved efficacy as the underlying model is scaled up. To push our probes to their limit, we test them on several cases where deception cannot be determined from the context alone. In these cases, which we refer to as introspective deception, the ground truth can only be determined through careful elicitation or thorough knowledge of a model's training data. In one such evaluation, we show that probes can distinguish transcripts containing a model's true hidden goal from other goals with an AUC of up to 99.7%. Our probes also readily detect deception on prominent open-weight models which lie about politically sensitive topics, and about their beliefs when put under pressure. We release our training dataset, dubbed FIBS, to help drive frontier deployment of effective probes, and encourage the community to expand upon it with further examples of deception and sabotage.",
+    "authors": [
+      "Oskar J. Hollinsworth",
+      "Alex F. Spies",
+      "Tigist Diriba",
+      "Adam Gleave",
+      "Chris Cundy"
+    ],
+    "published_date": "2026-10-08",
+    "url": "http://arxiv.org/abs/2610.12445v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.12445v1",
+    "doi": null,
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "journal": null,
+    "retrieved_at": "2026-10-11T07:21:46+00:00"
+  },
+  {
+    "paper_id": "pubmed:42828729",
+    "source": "pubmed",
+    "source_id": "42828729",
+    "title": "Discovery of dietary polyphenols targeting the autoinducer-2 quorum sensing system of pathogenic bacteria.",
+    "abstract": "Targeting autoinducer-2 (AI-2) quorum sensing (QS) systems with dietary compounds represents a promising strategy to combat pathogens, yet mechanisms remain elusive. Here, we develop a machine learning-driven framework combining computational screening with multi-level experimental analysis to identify AI-2 quorum sensing interference molecules (QSIMs). A graph neural network (GNN)-based classifier (AI2IMpred) screens over 7000 phytochemicals and identifies dietary polyphenols as potent QSIMs. Using <i>Salmonella Typhimurium</i> LT2 as a model, we demonstrate that 17 polyphenols, including pterostilbene, 4-methylcatechol, pyrogallol, and 3-methylcatechol, directly target LuxS and LsrB, as confirmed by SPR assays, while molecular docking predicts potential interactions with TqsA and LsrR. Structural analysis revealed that para-substituted hydrocarbyl groups enhance LsrB binding. Furthermore, polyphenol-mediated regulatory effects have been validated via gene expression modulation, bacterial phenotypes, NCM460 cell adhesion/invasion, and cross-pathogen analysis (<i>Escherichia coli</i>, <i>Staphylococcus aureus</i>, and <i>Pseudomonas aeruginosa</i>). This work provides insights for the potential development of diet-based interventions using polyphenol compounds against drug-resistant pathogenic infections.",
+    "authors": [
+      "Shengbo Wu",
+      "Peng Zhang",
+      "Manman Wang",
+      "Xue Xiao",
+      "Hongyu Jin",
+      "Hongrui Zhang",
+      "Danlei Chen",
+      "Xiaoli Liu",
+      "Juane Lu",
+      "Daoguang Tian",
+      "Hao Wu",
+      "Qinggele Caiyin",
+      "Fei Guo",
+      "Xiaolong Liu",
+      "Aidong Yang",
+      "Mingzhang Wen",
+      "Jianjun Qiao"
+    ],
+    "published_date": "2026-10-03",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42828729/",
+    "pdf_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13644630/pdf/",
+    "doi": "10.1080/19490976.2026.2726629",
+    "categories": [
+      "Quorum Sensing",
+      "Polyphenols",
+      "Salmonella typhimurium",
+      "Homoserine",
+      "Lactones",
+      "Bacterial Proteins",
+      "Carbon-Sulfur Lyases",
+      "Molecular Docking Simulation",
+      "Anti-Bacterial Agents",
+      "Escherichia coli",
+      "Pseudomonas aeruginosa",
+      "Gene Expression Regulation, Bacterial",
+      "Humans",
+      "Carrier Proteins",
+      "Escherichia coli Proteins"
+    ],
+    "journal": "Gut microbes",
+    "retrieved_at": "2026-10-11T07:21:50+00:00"
+  },
+  {
+    "paper_id": "pubmed:42827724",
+    "source": "pubmed",
+    "source_id": "42827724",
+    "title": "Combating antimicrobial resistance through multimodal data via artificial intelligence.",
+    "abstract": "Antimicrobial resistance (AMR) poses a critical global health challenge, leading to substantial mortality and economic losses without science-based interventions. Conventional approaches to combating AMR have important limitations in addressing this escalating threat. Recent advances in AI, including deep learning, large language models, and protein language models, provide new opportunities to integrate multimodal data for AMR research. However, evidence remains uneven, with many approaches limited to computational benchmarking rather than real-world validation. Here, we critically review AI applications in AMR, focusing on rapid diagnosis, therapeutic discovery, and clinical decision support. AI-based diagnostic models can identify resistant pathogens and predict resistance profiles, but most lack prospective clinical evaluation. AI-assisted drug discovery and alternative therapies have generated promising candidates, although most remain at computational, in vitro, or early preclinical stages. Large language models may support decision-making, but their clinical use remains preliminary. Successful translation of AI into clinical and One Health practice will require representative datasets, independent validation, prospective evaluation, and robust governance.",
+    "authors": [
+      "Qi Xia",
+      "Jiayang Li",
+      "Wenqi Wu",
+      "Jiajie Wang",
+      "Zhitao Zhou",
+      "Meilin Wu",
+      "Mingjie Qiu",
+      "Li Xu",
+      "Jianan Ren",
+      "Xiuwen Wu"
+    ],
+    "published_date": "2026-09-20",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42827724/",
+    "pdf_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13631655/pdf/",
+    "doi": "10.1016/j.onehlt.2026.101573",
+    "categories": [],
+    "journal": "One health (Amsterdam, Netherlands)",
+    "retrieved_at": "2026-10-11T07:21:50+00:00"
+  },
+  {
+    "paper_id": "pubmed:42732699",
+    "source": "pubmed",
+    "source_id": "42732699",
+    "title": "Accelerating HDAC8 inhibitor discovery through deep learning, cheminformatics, docking, and molecular dynamics simulations.",
+    "abstract": "Histone deacetylase 8 (HDAC8) is an emerging epigenetic target implicated in cancer, neurodegenerative disorders, and other human diseases, driving the urgent need for potent and selective inhibitors. In this study, we developed and validated a deep learning-based computational pipeline for the accurate prediction of HDAC8 inhibitor potency, integrating cheminformatics, neural networks, molecular docking, and molecular dynamics simulations. A large, curated dataset of 4583 HDAC8 inhibitors with experimental pIC50 values was retrieved from the ChEMBL database (target CHEMBL3192) and preprocessed using RDKit. Each molecule was represented as a 1033-dimensional feature vector combining nine physicochemical descriptors with a 1024-bit Morgan fingerprint. Through systematic hyperparameter ablation comparing eight neural network architectures, the optimal configuration comprising three hidden layers (512 → 256 → 64 units) with batch normalization and dropout regularization achieved a moderate but useful test set R<sup>2</sup> of 0.617 and RMSE of 0.642 log units. Residual analysis confirmed model reliability across the central tendency of chemical space, though systematic regression-to-the-mean effects were observed for extreme potency values. Leveraging an extrapolation-trained model with SELFIES-based evolutionary generation, we identified ten novel HDAC8 inhibitor candidates with predicted pIC50 values ranging from 10.49 to 11.07, all satisfying Lipinski's Rule of Five. The highest-priority candidate (Compound 1, predicted pIC50 = 11.07) was subjected to molecular docking and 200 ns molecular dynamics simulations, revealing a stable binding mode (protein RMSD = 1.8-2.2 Å, ligand RMSD = 1.5-1.8 Å) with persistent hydrogen bonding interactions (GLY 131 occupancy = 27%, GLY 120 occupancy = 22%). This integrated computational pipeline demonstrates the power of deep learning for accelerated HDAC8 inhibitor discovery, providing a robust framework for identifying and optimizing potent, drug-like candidates. These computational predictions, while promising, should be interpreted as hypotheses that require rigorous experimental validation.",
+    "authors": [
+      "Mohsen Sargolzaei",
+      "Hossein Nikoofard"
+    ],
+    "published_date": "2026-09-12",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42732699/",
+    "pdf_url": null,
+    "doi": "10.1016/j.jmgm.2026.109568",
+    "categories": [
+      "Molecular Dynamics Simulation",
+      "Molecular Docking Simulation",
+      "Histone Deacetylase Inhibitors",
+      "Deep Learning",
+      "Humans",
+      "Repressor Proteins",
+      "Cheminformatics",
+      "Histone Deacetylases",
+      "Drug Discovery",
+      "Protein Binding"
+    ],
+    "journal": "Journal of molecular graphics & modelling",
+    "retrieved_at": "2026-10-11T07:21:50+00:00"
+  },
+  {
+    "paper_id": "pubmed:42788352",
+    "source": "pubmed",
+    "source_id": "42788352",
+    "title": "Progress on quinoline‑based antitumour agents: Mechanistic insights and optimization strategies (Review).",
+    "abstract": "Quinoline derivatives are a class of heterocycles featuring a fused benzene‑pyridine scaffold that have attracted notable interest in anticancer drug discovery owing to their favourable physicochemical properties, structural versatility and broad biological activities. Accumulating evidence indicates that quinoline‑based compounds exert antitumour effects through several targets and pathways, including via epigenetic regulation, interference with DNA topology, inhibition of signalling pathways, immune modulation, induction of autophagy and targeting of the cytoskeleton. Structure‑activity relationship (SAR) analyses demonstrate that the electronic effects and steric configurations of substituents on the quinoline ring critically determine potency, selectivity and metabolic stability. In particular, oxygenated, halogenated and strongly electron‑withdrawing groups, as well as nitrogen‑containing heterocyclic substituents, enhance hydrophobic interactions or hydrogen bonding with biological targets, thereby improving inhibitory efficacy. Consequently, the quinoline scaffold has emerged as a rated structural motif in anticancer lead compound discovery. Multidimensional optimisation strategies have been proposed to improve the pharmacokinetic profiles and clinical applicability of quinoline derivatives. Nanocarriers and smart stimuli‑responsive delivery systems markedly enhance solubility, circulation time and tumour targeting, whereas prodrug approaches employing enzyme‑sensitive, pH‑responsive or redox‑activated linkers enable selective activation at tumour sites. Combination therapies also exploit the multi‑pathway activity of quinoline derivatives, enhancing antitumour responses and delaying resistance when combined with immunotherapy, chemotherapy or radiotherapy. Furthermore, artificial intelligence and machine learning approaches have shown increasing utility in virtual screening, quantitative structure‑activity relationship modelling and multi‑objective optimisation, accelerating the identification of potent, low toxicity and synthetically accessible candidates. Overall, quinoline derivatives offer systemic advantages as multi‑target anticancer agents. The present review summarises recent advances in molecular mechanisms, SAR insights and drug design strategies, providing a comprehensive framework for advancing quinoline‑based agents towards next‑generation precision anticancer therapies.",
+    "authors": [
+      "Yuwen Zeng",
+      "Yutong Yan",
+      "Shiye Wu",
+      "Wanshan Wu",
+      "Ke Chen",
+      "Youyi Lai",
+      "Qing Ye",
+      "Nan Zhang",
+      "Yuanyuan Zhou"
+    ],
+    "published_date": "2026-09-25",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42788352/",
+    "pdf_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13647448/pdf/",
+    "doi": "10.3892/mmr.2026.14031",
+    "categories": [
+      "Humans",
+      "Quinolines",
+      "Antineoplastic Agents",
+      "Animals",
+      "Structure-Activity Relationship",
+      "Neoplasms",
+      "Drug Discovery",
+      "Signal Transduction"
+    ],
+    "journal": "Molecular medicine reports",
+    "retrieved_at": "2026-10-11T07:21:50+00:00"
+  },
+  {
+    "paper_id": "pubmed:42537701",
+    "source": "pubmed",
+    "source_id": "42537701",
+    "title": "Fine-tuned machine learning models for the discovery of dye nanoparticles with enhanced lung delivery.",
+    "abstract": "Drug delivery using self-assembling drug-excipient nanoparticles offers a scalable strategy to improve the solubility, bioavailability, and biodistribution of poorly soluble therapeutics. However, progress in the development and translation of these materials has been limited by the lack of safe excipients capable of stabilizing drug-rich nanoparticles that allow for extrahepatic delivery. Here, we present an adaptive machine learning-guided workflow for excipient discovery that prospectively prioritizes candidate dyes and identifies clinically relevant drugs compatible with dye-based nanoparticle formulations. Guided by model predictions, we deployed semi-automated synthesis together with in vitro and in vivo experimental validation to evaluate and characterize the resulting nanoparticles. We identified two FDA-approved dye excipients and rediscovered a third dye as favorable excipients. Fine-tuning our machine learning models enabled us to identify 35 previously unreported nanoparticle formulations utilizing these dyes. Importantly, in proof-of-concept in vivo biodistribution studies, these dye excipients enabled the encapsulation of the anticancer drug sorafenib with distinct extrahepatic biodistribution profiles, including preferential accumulation in the lung. Taken together, this work establishes an adaptive machine learning-driven framework for excipient discovery and demonstrates that small-molecule dye excipients can serve as modular regulators of nanoparticle biodistribution. These findings expand the molecular and computational toolboxes for drug-excipient nanoparticle design and prototype the excipient selection process as a potentially powerful strategy to tune in vivo drug delivery.",
+    "authors": [
+      "Lauren A Onweller",
+      "Rebeca T Stiepel",
+      "George A Cortina",
+      "Joseph R Laforet",
+      "Ivan Spasojevic",
+      "Ping Fan",
+      "Daniel Reker"
+    ],
+    "published_date": "2026-07-31",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42537701/",
+    "pdf_url": null,
+    "doi": "10.1016/j.jconrel.2026.115226",
+    "categories": [
+      "Nanoparticles",
+      "Animals",
+      "Machine Learning",
+      "Lung",
+      "Excipients",
+      "Tissue Distribution",
+      "Coloring Agents",
+      "Sorafenib",
+      "Antineoplastic Agents",
+      "Niacinamide",
+      "Predictive Learning Models",
+      "Phenylurea Compounds",
+      "Humans",
+      "Drug Delivery Systems"
+    ],
+    "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+    "retrieved_at": "2026-10-11T07:21:50+00:00"
+  }
+]

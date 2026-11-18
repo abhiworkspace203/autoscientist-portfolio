@@ -1,0 +1,60 @@
+{
+  "generated_by": {
+    "type": "real_llm_call",
+    "provider": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "generated_at": "2026-10-19T17:55:57+00:00"
+  },
+  "evidence_source": "data/ai_safety_chunks.json",
+  "evidence_papers": [
+    {
+      "paper_id": "arxiv:2610.12463v1",
+      "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents"
+    },
+    {
+      "paper_id": "arxiv:2610.12445v1",
+      "title": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception"
+    }
+  ],
+  "status": "ok",
+  "topic": "AI safety and deception detection in LLM agents",
+  "mode": "llm",
+  "generated_at": "2026-10-19T17:55:57+00:00",
+  "valid_paper_ids": [
+    "arxiv:2610.12445v1",
+    "arxiv:2610.12463v1"
+  ],
+  "hypotheses": [
+    {
+      "title": "Integrating White-Box Probes into the Boundary Assurance Stack for Autonomous LLM Agents",
+      "problem_statement": "Current agent security frameworks like the Boundary Assurance Stack focus on external controls such as executable scope contracts and independent egress enforcement (arxiv:2610.12463v1), but lack internal cognitive monitoring mechanisms to detect unverbalized deception or hidden goals during multi-run coordination (arxiv:2610.12445v1).",
+      "proposed_solution": "Combine the five-layer Boundary Assurance Stack with layer-and-token-aggregating white-box probes trained on the FIBS dataset to trigger automatic stop conditions when introspective deception is detected.",
+      "cited_paper_ids": [
+        "arxiv:2610.12463v1",
+        "arxiv:2610.12445v1"
+      ],
+      "falsifiable_metric": "Measured quantity: AUC of deception detection combined with Boundary Assurance Stack intervention. Comparison: Stack with probes vs Stack without probes. Result that refutes: Adding probes does not significantly increase the detection rate of unauthorized boundary breaches during simulated cyber tasks (p > 0.05).",
+      "expected_code_modules": [
+        "boundary_assurance_stack",
+        "probe_architecture",
+        "shade_arena_eval"
+      ],
+      "supporting_findings": [
+        {
+          "paper_id": "arxiv:2610.12463v1",
+          "finding": "automatic stop conditions, and evidence-based reauthorization"
+        },
+        {
+          "paper_id": "arxiv:2610.12445v1",
+          "finding": "introducing a novel probe architecture which can aggregate information across many layers and tokens"
+        }
+      ],
+      "origin": "ai_generated",
+      "novelty_status": "not_verified"
+    }
+  ],
+  "rejected": [],
+  "errors": [],
+  "notes": [],
+  "disclaimer": "Hypotheses below are AI-generated proposals, not findings. Novelty has NOT been verified; a human must search the literature and review each hypothesis before running experiments. Suggested datasets are unverified suggestions."
+}

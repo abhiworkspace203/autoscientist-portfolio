@@ -1,0 +1,443 @@
+[
+  {
+    "paper_id": "arxiv:2610.12466v1",
+    "title": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
+    "pdf": "data/pdfs/arxiv_2610.12466v1.pdf",
+    "figures": 9,
+    "with_caption": 9,
+    "figure_list": [
+      {
+        "paper_id": "arxiv:2610.12466v1",
+        "index": 1,
+        "page": 2,
+        "path": "data/extracted_figures/arxiv_2610.12466v1/fig_1.png",
+        "width": 794,
+        "height": 732,
+        "bbox": [
+          107.5,
+          76.5,
+          504.5,
+          441.8
+        ],
+        "caption": "Figure 1: Summary of contributions. In this work we propose new point estimates for time horizons with an in-sample fit comparison (first column) as well as diagnostic charts for construct validity (second column). Details of how the first column was computed are described in Section 2, including a description of Model 2, and details and interpretation for the second column are in Section 3.",
+        "figure_number": 1,
+        "kind": "vector",
+        "parts": 1
+      },
+      {
+        "paper_id": "arxiv:2610.12466v1",
+        "index": 2,
+        "page": 9,
+        "path": "data/extracted_figures/arxiv_2610.12466v1/fig_2.png",
+        "width": 799,
+        "height": 301,
+        "bbox": [
+          107.5,
+          380.9,
+          504.5,
+          530.2
+        ],
+        "caption": "Figure 2: Models 1 and 2 against the baseline across the scoring-rule suite. Each panel shows the paired difference in weighted per-run score between our model and the baseline. (Left is better for our models.) The confidence intervals use family as the unit n = 79, at two nested levels: 80% thick, 95% thin. Point estimates for both of our models dominate the baseline at every displayed metric and weighting.",
+        "figure_number": 2,
+        "kind": "vector",
+        "parts": 1
+      },
+      {
+        "paper_id": "arxiv:2610.12466v1",
+        "index": 3,
+        "page": 10,
+        "path": "data/extracted_figures/arxiv_2610.12466v1/fig_3.png",
+        "width": 795,
+        "height": 314,
+        "bbox": [
+          107.5,
+          71.5,
+          504.5,
+          228.5
+        ],
+        "caption": "Figure 3: Murphy diagrams of Models 1 and 2 against the baseline, with equal-family weighting. Left: Murphy diagrams of the baseline, Model 1, and Model 2. Right: Each model’s paired difference from the baseline (×10−3), with its 95% band based on family n = 79 units. For display, these curves are smoothed by a centered rolling mean over the q-grid (≈0.03 wide in q).",
+        "figure_number": 3,
+        "kind": "vector",
+        "parts": 1
+      },
+      {
+        "paper_id": "arxiv:2610.12466v1",
+        "index": 4,
+        "page": 10,
+        "path": "data/extracted_figures/arxiv_2610.12466v1/fig_4.png",
+        "width": 795,
+        "height": 401,
+        "bbox": [
+          107.5,
+          339.0,
+          504.5,
+          539.1
+        ],
+        "caption": "Figure 4: In-sample fitted pj(t) against binned observed frequencies, for six AIs with time horizons of 2–15 min. Black points pool each AI’s runs within factor-4 human-time bins—width two in log2 minutes, with bin centers at 1 min, 4 min, 16 min, etc—plotted at the run-weighted mean human time within the bin. (The points are therefore unevenly spaced). Vertical bars are 95% Wald intervals ˆp ± 1.96",
+        "figure_number": 4,
+        "kind": "vector",
+        "parts": 1
+      },
+      {
+        "paper_id": "arxiv:2610.12466v1",
+        "index": 5,
+        "page": 14,
+        "path": "data/extracted_figures/arxiv_2610.12466v1/fig_5.png",
+        "width": 795,
+        "height": 359,
+        "bbox": [
+          107.5,
+          71.5,
+          504.5,
+          250.3
+        ],
+        "caption": "Figure 5: Model 2 over the METR plot. Both panels repeat METR’s own per-AI time horizons (blue, with the trend dashed), which are close to the baseline horizons of Figure 1(a). As in Figure 1, only frontier AIs are shown, each series on its own frontier. (a) Model 2’s time horizons (purple), the estimates of Figure 1(e); the disagreement concentrates in the shaded 2–30 minute band. (b) Model 2’s Rasch abilities ˆαj (green), displayed as 2u+v ˆαj minutes with (u, v) chosen by least squares against log2 of the METR time horizons (R2 = 0.996).",
+        "figure_number": 5,
+        "kind": "vector",
+        "parts": 1
+      },
+      {
+        "paper_id": "arxiv:2610.12466v1",
+        "index": 6,
+        "page": 14,
+        "path": "data/extracted_figures/arxiv_2610.12466v1/fig_6.png",
+        "width": 478,
+        "height": 341,
+        "bbox": [
+          186.7,
+          335.5,
+          425.3,
+          505.7
+        ],
+        "caption": "Figure 6: A hypothetical time-to-difficulty conversion beyond one day. Up to one day, the plot is Figure 1(d); after that, we depict a possible future for the time-to-difficulty conversion.",
+        "figure_number": 6,
+        "kind": "vector",
+        "parts": 1
+      },
+      {
+        "paper_id": "arxiv:2610.12466v1",
+        "index": 7,
+        "page": 16,
+        "path": "data/extracted_figures/arxiv_2610.12466v1/fig_7.png",
+        "width": 795,
+        "height": 733,
+        "bbox": [
+          107.5,
+          120.2,
+          504.5,
+          486.3
+        ],
+        "caption": "Figure 7: Per-AI scoring-rule contrasts, Model 1 −baseline, for all 26 AIs in release order under family CV. Each point is the paired difference on that AI’s held-out cells (×10−3; below zero favors Model 1), with a 95% Bayle cluster-robust interval using the task families that AI attempted as clusters. Weights and family sizes are renormalized within each AI. Columns give the three evaluation weightings and rows the marginal log score, Brier score, and the smoothed elementary scores ˜Sq=0.5 and ˜Sq=0.8, which average over q ∈[0.45, 0.55] and q ∈[0.75, 0.85], respectively. Orange marks the six AIs of Figure 4, whose METR time horizons are 2–15 min; all other AIs are gray.",
+        "figure_number": 7,
+        "kind": "vector",
+        "parts": 1
+      },
+      {
+        "paper_id": "arxiv:2610.12466v1",
+        "index": 8,
+        "page": 17,
+        "path": "data/extracted_figures/arxiv_2610.12466v1/fig_8.png",
+        "width": 795,
+        "height": 734,
+        "bbox": [
+          107.5,
+          107.5,
+          504.5,
+          473.6
+        ],
+        "caption": "Figure 8: Per-AI scoring-rule contrasts, Model 2 −baseline, with the same construction and shared score-wise axis limits as Figure 7. Purple marks the same six AIs with time horizons of 2–15 min. The point-estimate advantage is concentrated in the middle of the capability range, while most individual-AI intervals remain too wide to separate from zero; the pooled comparison in Figure 2 is where the evidence accumulates.",
+        "figure_number": 8,
+        "kind": "vector",
+        "parts": 1
+      },
+      {
+        "paper_id": "arxiv:2610.12466v1",
+        "index": 9,
+        "page": 18,
+        "path": "data/extracted_figures/arxiv_2610.12466v1/fig_9.png",
+        "width": 570,
+        "height": 1105,
+        "bbox": [
+          163.6,
+          83.9,
+          448.4,
+          635.7
+        ],
+        "caption": "Figure 9: In-sample fitted pj(t) against binned observed frequencies for all 26 AIs, in release order; construction as in Figure 4 (factor-4 human-time bins centered on 1 min, 4 min, 16 min, ...; points at run-weighted mean human times, 95% Wald intervals treating runs as independent). The shape misfit of the log-linear baseline is concentrated in the mid-strength AIs of the GPT-4 era; for the weakest AIs the curves differ mainly in the tail, and for the strongest the three specifications nearly coincide.",
+        "figure_number": 9,
+        "kind": "vector",
+        "parts": 1
+      }
+    ]
+  },
+  {
+    "paper_id": "arxiv:2610.12463v1",
+    "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
+    "pdf": "data/pdfs/arxiv_2610.12463v1.pdf",
+    "figures": 1,
+    "with_caption": 1,
+    "figure_list": [
+      {
+        "paper_id": "arxiv:2610.12463v1",
+        "index": 1,
+        "page": 9,
+        "path": "data/extracted_figures/arxiv_2610.12463v1/fig_1.png",
+        "width": 920,
+        "height": 596,
+        "bbox": [
+          76.2,
+          129.3,
+          535.8,
+          427.0
+        ],
+        "caption": "Figure 1: Boundary Assurance Stack for high-capability agent evaluations. Human accountability spans all five layers through named ownership, documented authorization, timely intervention authority, reviewable evidence, and evidence-based reauthorization.",
+        "figure_number": 1,
+        "kind": "vector",
+        "parts": 1
+      }
+    ]
+  },
+  {
+    "paper_id": "arxiv:2610.12452v1",
+    "title": "BrickBench: Evaluating Agentic Brick Design",
+    "pdf": "data/pdfs/arxiv_2610.12452v1.pdf",
+    "figures": 13,
+    "with_caption": 13,
+    "figure_list": [
+      {
+        "paper_id": "arxiv:2610.12452v1",
+        "index": 1,
+        "page": 1,
+        "path": "data/extracted_figures/arxiv_2610.12452v1/fig_1.png",
+        "width": 1815,
+        "height": 1349,
+        "bbox": [
+          70.9,
+          164.3,
+          524.4,
+          501.4
+        ],
+        "caption": "Figure 1: We evaluate coding agents on their ability to design LEGO assemblies from a text prompt. We introduce three settings with varying constraints: Model (≤400 parts), Set (400– 4000 parts), and Alt-Build (the part inventory of set 10698). Each assembly above can be built.",
+        "figure_number": 1,
+        "kind": "raster",
+        "parts": 3
+      },
+      {
+        "paper_id": "arxiv:2610.12452v1",
+        "index": 2,
+        "page": 4,
+        "path": "data/extracted_figures/arxiv_2610.12452v1/fig_2.png",
+        "width": 848,
+        "height": 701,
+        "bbox": [
+          70.9,
+          85.0,
+          282.6,
+          260.2
+        ],
+        "caption": "Figure 2: BrickNet validation. We evaluate GPT-5.6 Luna on the BrickNet text-to-assembly validation set (Kulits & Schmid, 2026). While it was not specialized for this dataset, we find it exceeds task-specific baselines including BrickGPT (Pun et al., 2025) across metrics and nears the alignment of the ground-truth objects. (a) Sample inputs and model outputs. (b) Caption align- ment following BrickNet’s evaluation protocol. PE (Bolya et al., 2025) and SigLIP 2 (Tschannen et al., 2025) score the similarity between the embeddings of the renders and of the caption, and VQAScore (Lin et al., 2024) the probability that a VQA model answers yes when asked whether the renders show the caption. See Kulits & Schmid (2026) for details on metric computation.",
+        "figure_number": 2,
+        "kind": "raster",
+        "parts": 2
+      },
+      {
+        "paper_id": "arxiv:2610.12452v1",
+        "index": 3,
+        "page": 8,
+        "path": "data/extracted_figures/arxiv_2610.12452v1/fig_3.png",
+        "width": 1206,
+        "height": 301,
+        "bbox": [
+          70.4,
+          84.5,
+          524.9,
+          197.7
+        ],
+        "caption": "Figure 3: BrickBench summary. We report summary metrics averaged across the three evalua- tion settings. See Tab. 1 for disaggregated results. The ELO-plot lines represent 95% intervals.",
+        "figure_number": 3,
+        "kind": "vector",
+        "parts": 1
+      },
+      {
+        "paper_id": "arxiv:2610.12452v1",
+        "index": 4,
+        "page": 9,
+        "path": "data/extracted_figures/arxiv_2610.12452v1/fig_4.png",
+        "width": 1815,
+        "height": 2379,
+        "bbox": [
+          70.9,
+          98.0,
+          524.4,
+          692.5
+        ],
+        "caption": "Figure 4: BrickBench samples. We show one assembly from each of the eleven agents for three prompts in each setting. We observe the agents vary in their interpretation of the prompts. One assembly is missing for Muse because it did not deliver one within the turn budget.",
+        "figure_number": 4,
+        "kind": "raster",
+        "parts": 10
+      },
+      {
+        "paper_id": "arxiv:2610.12452v1",
+        "index": 5,
+        "page": 10,
+        "path": "data/extracted_figures/arxiv_2610.12452v1/fig_5.png",
+        "width": 910,
+        "height": 427,
+        "bbox": [
+          70.4,
+          84.5,
+          524.9,
+          297.9
+        ],
+        "caption": "Figure 5: ELO. (a) We plot ELO against mean assembly cost. (b) To validate our model-based Design ELO computation, we perform a perceptual study where participants are tasked with judging design quality between a pair of assemblies for a given prompt. The prompt isn’t given to the judge, and they make their decision based only on the images. We find that the rankings agree on 34/36 agent pairs (Kendall 𝜏= 0.89), suggesting the metric is an effective proxy for human judgment. The study covers the nine reference agents; Opus 5.5 and GPT-6.1 Sol were evaluated after it.",
+        "figure_number": 5,
+        "kind": "vector",
+        "parts": 1
+      },
+      {
+        "paper_id": "arxiv:2610.12452v1",
+        "index": 6,
+        "page": 11,
+        "path": "data/extracted_figures/arxiv_2610.12452v1/fig_6.png",
+        "width": 1047,
+        "height": 503,
+        "bbox": [
+          260.1,
+          273.7,
+          521.7,
+          399.2
+        ],
+        "caption": "(a) (b) Figure 6: Human-design evaluation. We perform a perceptual study comparing agent designs with human designs. For each assembly in the Model and Set settings, we select a random assembly from the BrickNet dataset with a comparable number of parts and ask a human rater to identify the one made by a person. We find that raters are able to distinguish between the agent-designed and human-designed assemblies (a); the study covers the nine reference agents and the two baselines. While agent-designed assemblies often satisfy the prompt criteria, there is a clear gap in fine-grained design to those produced by humans (b).",
+        "figure_number": 6,
+        "kind": "raster",
+        "parts": 1
+      },
+      {
+        "paper_id": "arxiv:2610.12452v1",
+        "index": 7,
+        "page": 15,
+        "path": "data/extracted_figures/arxiv_2610.12452v1/fig_7.png",
+        "width": 910,
+        "height": 568,
+        "bbox": [
+          70.4,
+          236.1,
+          524.9,
+          519.8
+        ],
+        "caption": "Figure A1: VQA question types. We plot the share of each setting’s questions by DSG type.",
+        "figure_number": "A1",
+        "kind": "vector",
+        "parts": 1
+      },
+      {
+        "paper_id": "arxiv:2610.12452v1",
+        "index": 8,
+        "page": 16,
+        "path": "data/extracted_figures/arxiv_2610.12452v1/fig_8.png",
+        "width": 908,
+        "height": 747,
+        "bbox": [
+          70.9,
+          84.8,
+          524.4,
+          457.6
+        ],
+        "caption": "Figure A2: Question-graph sample. We plot a sample question graph for a set prompt. An arrow from one question to another indicates the second is satisfied only if the judge answers yes to the first.",
+        "figure_number": "A2",
+        "kind": "vector",
+        "parts": 1
+      },
+      {
+        "paper_id": "arxiv:2610.12452v1",
+        "index": 9,
+        "page": 19,
+        "path": "data/extracted_figures/arxiv_2610.12452v1/fig_9.png",
+        "width": 910,
+        "height": 1043,
+        "bbox": [
+          70.4,
+          128.0,
+          524.9,
+          649.3
+        ],
+        "caption": "Figure A4: BrickBench. We visualize disaggregated BrickBench quantitative results. The base- lines BrickNet-14B (Kulits & Schmid, 2026) and BrickGPT (Pun et al., 2025) are only evaluated on the Model setting and the Valid metric reported of BrickNet-14B does not include stability.",
+        "figure_number": "A4",
+        "kind": "vector",
+        "parts": 1
+      },
+      {
+        "paper_id": "arxiv:2610.12452v1",
+        "index": 10,
+        "page": 20,
+        "path": "data/extracted_figures/arxiv_2610.12452v1/fig_10.png",
+        "width": 910,
+        "height": 1043,
+        "bbox": [
+          70.4,
+          141.6,
+          524.9,
+          662.9
+        ],
+        "caption": "Figure A5: Further assembly statistics. We plot the statistics of Tab. A1 by setting.",
+        "figure_number": "A5",
+        "kind": "vector",
+        "parts": 1
+      },
+      {
+        "paper_id": "arxiv:2610.12452v1",
+        "index": 11,
+        "page": 21,
+        "path": "data/extracted_figures/arxiv_2610.12452v1/fig_11.png",
+        "width": 1815,
+        "height": 2332,
+        "bbox": [
+          70.9,
+          110.6,
+          524.4,
+          693.4
+        ],
+        "caption": "Figure A6: Additional BrickBench samples. We show further assemblies from the eleven agents in the three settings.",
+        "figure_number": "A6",
+        "kind": "raster",
+        "parts": 10
+      },
+      {
+        "paper_id": "arxiv:2610.12452v1",
+        "index": 12,
+        "page": 22,
+        "path": "data/extracted_figures/arxiv_2610.12452v1/fig_12.png",
+        "width": 910,
+        "height": 483,
+        "bbox": [
+          70.4,
+          106.1,
+          524.9,
+          347.1
+        ],
+        "caption": "Figure A7: VQA breakdowns. We report score by prompt category (a) and attribute type (b).",
+        "figure_number": "A7",
+        "kind": "vector",
+        "parts": 1
+      },
+      {
+        "paper_id": "arxiv:2610.12452v1",
+        "index": 13,
+        "page": 22,
+        "path": "data/extracted_figures/arxiv_2610.12452v1/fig_13.png",
+        "width": 910,
+        "height": 458,
+        "bbox": [
+          70.4,
+          438.6,
+          524.9,
+          667.3
+        ],
+        "caption": "Figure A8: Part-count distributions. We report the density of part counts in the Model (≤400) and Set (400–4000) settings for each agent. Most agents peak near 400 in Set. GPT-6 Astra uses considerably more parts on average in both settings.",
+        "figure_number": "A8",
+        "kind": "vector",
+        "parts": 1
+      }
+    ]
+  }
+]

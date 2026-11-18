@@ -1,0 +1,405 @@
+{
+  "description": "Holdout set of recent human-authored papers for benchmarking the agent",
+  "created_at": "2026-11-02T15:23:20+00:00",
+  "selection_rules": {
+    "years": "2024-2026",
+    "domains": [
+      "AI",
+      "Computational Biology",
+      "Physics"
+    ],
+    "min_abstract_words": 120,
+    "requires": [
+      "pdf",
+      "introduction",
+      "references"
+    ],
+    "plan": [
+      {
+        "domain": "AI",
+        "category": "cs.LG",
+        "year": 2024,
+        "month": 6
+      },
+      {
+        "domain": "AI",
+        "category": "cs.AI",
+        "year": 2025,
+        "month": 3
+      },
+      {
+        "domain": "AI",
+        "category": "cs.CL",
+        "year": 2026,
+        "month": 5
+      },
+      {
+        "domain": "Computational Biology",
+        "category": "q-bio.BM",
+        "year": 2024,
+        "month": 9
+      },
+      {
+        "domain": "Computational Biology",
+        "category": "q-bio.QM",
+        "year": 2025,
+        "month": 6
+      },
+      {
+        "domain": "Computational Biology",
+        "category": "q-bio.GN",
+        "year": 2026,
+        "month": 3
+      },
+      {
+        "domain": "Physics",
+        "category": "physics.comp-ph",
+        "year": 2024,
+        "month": 11
+      },
+      {
+        "domain": "Physics",
+        "category": "cond-mat.mtrl-sci",
+        "year": 2025,
+        "month": 9
+      },
+      {
+        "domain": "Physics",
+        "category": "physics.chem-ph",
+        "year": 2026,
+        "month": 7
+      }
+    ]
+  },
+  "count": 9,
+  "papers": [
+    {
+      "paper_id": "arxiv:2406.12815v1",
+      "title": "Privacy Preserving Federated Learning in Medical Imaging with Uncertainty Estimation",
+      "authors": [
+        "Nikolas Koutsoubis",
+        "Yasin Yilmaz",
+        "Ravi P. Ramachandran",
+        "Matthew Schabath",
+        "Ghulam Rasool"
+      ],
+      "published_date": "2024-06-18",
+      "domain": "AI",
+      "category": "cs.LG",
+      "url": "http://arxiv.org/abs/2406.12815v1",
+      "pdf_url": "https://arxiv.org/pdf/2406.12815v1",
+      "abstract": "Machine learning (ML) and Artificial Intelligence (AI) have fueled remarkable advancements, particularly in healthcare. Within medical imaging, ML models hold the promise of improving disease diagnoses, treatment planning, and post-treatment monitoring. Various computer vision tasks like image classification, object detection, and image segmentation are poised to become routine in clinical analysis. However, privacy concerns surrounding patient data hinder the assembly of large training datasets needed for developing and training accurate, robust, and generalizable models. Federated Learning (FL) emerges as a compelling solution, enabling organizations to collaborate on ML model training by sharing model training information (gradients) rather than data (e.g., medical images). FL's distributed learning framework facilitates inter-institutional collaboration while preserving patient privacy. However, FL, while robust in privacy preservation, faces several challenges. Sensitive information can still be gleaned from shared gradients that are passed on between organizations during model training. Additionally, in medical imaging, quantifying model confidence\\uncertainty accurately is crucial due to the noise and artifacts present in the data. Uncertainty estimation in FL encounters unique hurdles due to data heterogeneity across organizations. This paper offers a comprehensive review of FL, privacy preservation, and uncertainty estimation, with a focus on medical imaging. Alongside a survey of current research, we identify gaps in the field and suggest future directions for FL research to enhance privacy and address noisy medical imaging data challenges.",
+      "pdf_path": "data/holdout_papers/pdfs/arxiv_2406.12815v1.pdf",
+      "structure": {
+        "sections": [
+          "abstract",
+          "introduction",
+          "conclusion",
+          "discussion",
+          "method",
+          "references"
+        ],
+        "missing_sections": [
+          "results"
+        ],
+        "word_count": 17334,
+        "abstract_words": 235,
+        "figures": 5,
+        "tables": 3,
+        "references": 125
+      }
+    },
+    {
+      "paper_id": "arxiv:2503.21307v1",
+      "title": "InternVL-X: Advancing and Accelerating InternVL Series with Efficient Visual Token Compression",
+      "authors": [
+        "Dongchen Lu",
+        "Yuyao Sun",
+        "Zilu Zhang",
+        "Leping Huang",
+        "Jianliang Zeng",
+        "Mao Shu",
+        "Huo Cao"
+      ],
+      "published_date": "2025-03-27",
+      "domain": "AI",
+      "category": "cs.AI",
+      "url": "http://arxiv.org/abs/2503.21307v1",
+      "pdf_url": "https://arxiv.org/pdf/2503.21307v1",
+      "abstract": "Most multimodal large language models (MLLMs) treat visual tokens as \"a sequence of text\", integrating them with text tokens into a large language model (LLM). However, a great quantity of visual tokens significantly increases the demand for computational resources and time. In this paper, we propose InternVL-X, which outperforms the InternVL model in both performance and efficiency by incorporating three visual token compression methods. First, we propose a novel vision-language projector, PVTC. This component integrates adjacent visual embeddings to form a local query and utilizes the transformed CLS token as a global query, then performs point-to-region cross-attention through these local and global queries to more effectively convert visual features. Second, we present a layer-wise visual token compression module, LVTC, which compresses tokens in the LLM shallow layers and then expands them through upsampling and residual connections in the deeper layers. This significantly enhances the model computational efficiency. Futhermore, we propose an efficient high resolution slicing method, RVTC, which dynamically adjusts the number of visual tokens based on image area or length filtering. RVTC greatly enhances training efficiency with only a slight reduction in performance. By utilizing 20% or fewer visual tokens, InternVL-X achieves state-of-the-art performance on 7 public MLLM benchmarks, and improves the average metric by 2.34% across 12 tasks.",
+      "pdf_path": "data/holdout_papers/pdfs/arxiv_2503.21307v1.pdf",
+      "structure": {
+        "sections": [
+          "abstract",
+          "introduction",
+          "related_work",
+          "method",
+          "experiments",
+          "conclusion",
+          "references"
+        ],
+        "missing_sections": [
+          "results"
+        ],
+        "word_count": 9134,
+        "abstract_words": 225,
+        "figures": 9,
+        "tables": 5,
+        "references": 57
+      }
+    },
+    {
+      "paper_id": "arxiv:2605.27355v2",
+      "title": "Alignment Tampering: How Reinforcement Learning from Human Feedback Is Exploited to Optimize Misaligned Biases",
+      "authors": [
+        "Dongyoon Hahm",
+        "Dylan Hadfield-Menell",
+        "Kimin Lee"
+      ],
+      "published_date": "2026-05-26",
+      "domain": "AI",
+      "category": "cs.CL",
+      "url": "http://arxiv.org/abs/2605.27355v2",
+      "pdf_url": "https://arxiv.org/pdf/2605.27355v2",
+      "abstract": "Reinforcement Learning from Human Feedback (RLHF) is the standard method to align Large Language Models (LLMs) with human preferences. In this work, we introduce alignment tampering, a potential vulnerability where the LLM undergoing alignment influences the preference dataset, causing RLHF to amplify undesired behaviors. This arises from core limitations of RLHF: (1) preference datasets are constructed from the LLM's own outputs, allowing it to influence them, and (2) pairwise comparisons only indicate which response is better, not why. These limitations can be exploited to cause alignment tampering. For example, if an LLM generates biased responses with higher quality, annotators will prefer them based on quality. However, preference labels do not distinguish quality from bias, and the reward model inherits this limitation. Optimizing such rewards through reinforcement learning or best-of-N sampling can amplify misaligned biases. Our experiments demonstrate amplification across diverse biases: from keyword bias to propaganda (e.g., sexism), brand promotion, and instrumental goal-seeking. Mitigation remains challenging, as existing techniques for robust RLHF fail to fully resolve alignment tampering without sacrificing response quality. These findings reveal structural vulnerabilities of current RLHF and emphasize the need to prevent this vulnerability. Project page: https://alignment-tampering.github.io/",
+      "pdf_path": "data/holdout_papers/pdfs/arxiv_2605.27355v2.pdf",
+      "structure": {
+        "sections": [
+          "abstract",
+          "introduction",
+          "method",
+          "experiments",
+          "related_work",
+          "conclusion",
+          "references",
+          "results"
+        ],
+        "missing_sections": [],
+        "word_count": 15573,
+        "abstract_words": 206,
+        "figures": 15,
+        "tables": 16,
+        "references": 40
+      }
+    },
+    {
+      "paper_id": "arxiv:2409.17808v1",
+      "title": "Generative Modeling of Molecular Dynamics Trajectories",
+      "authors": [
+        "Bowen Jing",
+        "Hannes Stärk",
+        "Tommi Jaakkola",
+        "Bonnie Berger"
+      ],
+      "published_date": "2024-09-26",
+      "domain": "Computational Biology",
+      "category": "q-bio.BM",
+      "url": "http://arxiv.org/abs/2409.17808v1",
+      "pdf_url": "https://arxiv.org/pdf/2409.17808v1",
+      "abstract": "Molecular dynamics (MD) is a powerful technique for studying microscopic phenomena, but its computational cost has driven significant interest in the development of deep learning-based surrogate models. We introduce generative modeling of molecular trajectories as a paradigm for learning flexible multi-task surrogate models of MD from data. By conditioning on appropriately chosen frames of the trajectory, we show such generative models can be adapted to diverse tasks such as forward simulation, transition path sampling, and trajectory upsampling. By alternatively conditioning on part of the molecular system and inpainting the rest, we also demonstrate the first steps towards dynamics-conditioned molecular design. We validate the full set of these capabilities on tetrapeptide simulations and show that our model can produce reasonable ensembles of protein monomers. Altogether, our work illustrates how generative modeling can unlock value from MD data towards diverse downstream tasks that are not straightforward to address with existing methods or even MD itself. Code is available at https://github.com/bjing2016/mdgen.",
+      "pdf_path": "data/holdout_papers/pdfs/arxiv_2409.17808v1.pdf",
+      "structure": {
+        "sections": [
+          "abstract",
+          "introduction",
+          "related_work",
+          "method",
+          "experiments",
+          "discussion",
+          "references"
+        ],
+        "missing_sections": [
+          "results",
+          "conclusion"
+        ],
+        "word_count": 10851,
+        "abstract_words": 163,
+        "figures": 11,
+        "tables": 4,
+        "references": 49
+      }
+    },
+    {
+      "paper_id": "arxiv:2506.16091v1",
+      "title": "Geometric deep learning assists protein engineering. Opportunities and Challenges",
+      "authors": [
+        "Julián García-Vinuesa",
+        "Jorge Rojas",
+        "Nicole Soto-García",
+        "Nicolás Martínez",
+        "Diego Alvarez-Saravia",
+        "Roberto Uribe-Paredes",
+        "Mehdi D. Davari",
+        "Carlos Conca",
+        "Juan A. Asenjo",
+        "David Medina-Ortiz"
+      ],
+      "published_date": "2025-06-19",
+      "domain": "Computational Biology",
+      "category": "q-bio.QM",
+      "url": "http://arxiv.org/abs/2506.16091v1",
+      "pdf_url": "https://arxiv.org/pdf/2506.16091v1",
+      "abstract": "Protein engineering is experiencing a paradigmatic shift through the integration of geometric deep learning into computational design workflows. While traditional strategies, such as rational design and directed evolution, have enabled relevant advances, they remain limited by the complexity of sequence space and the cost of experimental validation. Geometric deep learning addresses these limitations by operating on non-Euclidean domains, capturing spatial, topological, and physicochemical features essential to protein function. This perspective outlines the current applications of GDL across stability prediction, functional annotation, molecular interaction modeling, and de novo protein design. We highlight recent methodological advances in model generalization, interpretability, and robustness, particularly under data-scarce conditions. A unified framework is proposed that integrates GDL with explainable AI and structure-based validation to support transparent, autonomous design. As GDL converges with generative modeling and high-throughput experimentation, it is emerging as a central technology in next-generation protein engineering and synthetic biology.",
+      "pdf_path": "data/holdout_papers/pdfs/arxiv_2506.16091v1.pdf",
+      "structure": {
+        "sections": [
+          "abstract",
+          "introduction",
+          "references"
+        ],
+        "missing_sections": [
+          "method",
+          "results",
+          "conclusion"
+        ],
+        "word_count": 15731,
+        "abstract_words": 167,
+        "figures": 4,
+        "tables": 0,
+        "references": 191
+      }
+    },
+    {
+      "paper_id": "arxiv:2603.01752v2",
+      "title": "Causal Circuit Tracing Reveals Distinct Computational Architectures in Single-Cell Foundation Models: Inhibitory Dominance, Biological Coherence, and Cross-Model Convergence",
+      "authors": [
+        "Ihor Kendiukhov"
+      ],
+      "published_date": "2026-03-02",
+      "domain": "Computational Biology",
+      "category": "q-bio.GN",
+      "url": "http://arxiv.org/abs/2603.01752v2",
+      "pdf_url": "https://arxiv.org/pdf/2603.01752v2",
+      "abstract": "Motivation: Sparse autoencoders (SAEs) decompose foundation model activations into interpretable features, but causal feature-to-feature interactions across network depth remain unknown for biological foundation models. Results: We introduce causal circuit tracing by ablating SAE features and measuring downstream responses, and apply it to Geneformer V2-316M and scGPT whole-human across four conditions (96,892 edges, 80,191 forward passes). Both models show approximately 53 percent biological coherence and 65 to 89 percent inhibitory dominance, invariant to architecture and cell type. scGPT produces stronger effects (mean absolute d = 1.40 vs. 1.05) with more balanced dynamics. Cross-model consensus yields 1,142 conserved domain pairs (10.6x enrichment, p < 0.001). Disease-associated domains are 3.59x more likely to be consensus. Gene-level CRISPRi validation shows 56.4 percent directional accuracy, confirming co-expression rather than causal encoding.",
+      "pdf_path": "data/holdout_papers/pdfs/arxiv_2603.01752v2.pdf",
+      "structure": {
+        "sections": [
+          "abstract",
+          "results",
+          "introduction",
+          "method",
+          "discussion",
+          "references"
+        ],
+        "missing_sections": [
+          "conclusion"
+        ],
+        "word_count": 12793,
+        "abstract_words": 24,
+        "figures": 13,
+        "tables": 10,
+        "references": 30
+      }
+    },
+    {
+      "paper_id": "arxiv:2411.05033v1",
+      "title": "Diagonalization without Diagonalization: A Direct Optimization Approach for Solid-State Density Functional Theory",
+      "authors": [
+        "Tianbo Li",
+        "Min Lin",
+        "Stephen Dale",
+        "Zekun Shi",
+        "A. H. Castro Neto",
+        "Kostya S. Novoselov",
+        "Giovanni Vignale"
+      ],
+      "published_date": "2024-11-06",
+      "domain": "Physics",
+      "category": "physics.comp-ph",
+      "url": "http://arxiv.org/abs/2411.05033v1",
+      "pdf_url": "https://arxiv.org/pdf/2411.05033v1",
+      "abstract": "We present a novel approach to address the challenges of variable occupation numbers in direct optimization of density functional theory (DFT). By parameterizing both the eigenfunctions and the occupation matrix, our method minimizes the free energy with respect to these parameters. As the stationary conditions require the occupation matrix and the Kohn-Sham Hamiltonian to be simultaneously diagonalizable, this leads to the concept of ``self-diagonalization,'' where, by assuming a diagonal occupation matrix without loss of generality, the Hamiltonian matrix naturally becomes diagonal at stationary points. Our method incorporates physical constraints on both the eigenfunctions and the occupations into the parameterization, transforming the constrained optimization into an fully differentiable unconstrained problem, which is solvable via gradient descent. Implemented in JAX, our method was tested on aluminum and silicon, confirming that it achieves efficient self-diagonalization, produces the correct Fermi-Dirac distribution of the occupation numbers and yields band structures consistent with those obtained with SCF methods in Quantum Espresso.",
+      "pdf_path": "data/holdout_papers/pdfs/arxiv_2411.05033v1.pdf",
+      "structure": {
+        "sections": [
+          "abstract",
+          "introduction",
+          "method",
+          "experiments",
+          "conclusion",
+          "references"
+        ],
+        "missing_sections": [
+          "results"
+        ],
+        "word_count": 7517,
+        "abstract_words": 168,
+        "figures": 4,
+        "tables": 0,
+        "references": 24
+      }
+    },
+    {
+      "paper_id": "arxiv:2509.08023v2",
+      "title": "PyPAS -- Python package for Positron Annihilation Spectroscopy Doppler Broadening Analysis",
+      "authors": [
+        "Achiya Yosef Amrusi",
+        "Sharon May-Tal Beck",
+        "Hadar Steinberg",
+        "Guy Ron"
+      ],
+      "published_date": "2025-09-09",
+      "domain": "Physics",
+      "category": "cond-mat.mtrl-sci",
+      "url": "http://arxiv.org/abs/2509.08023v2",
+      "pdf_url": "https://arxiv.org/pdf/2509.08023v2",
+      "abstract": "Doppler Broadening (DB) of annihilation radiation is a well-established technique within Positron Annihilation Spectroscopy (PAS), used for probing the electronic structure of materials. The analysis of DB experimental data relies on gamma spectroscopy analysis tools, while depth profiling using variable-energy slow positron beams depends on solving the positron diffusion equation. Traditional Variable Energy Doppler Broadening (VEDB) analysis tools, such as VEPFIT and ROYPROF, often present limitations due to outdated interfaces and lack of integration with comprehensive spectroscopy analysis platforms. Addressing these challenges, an open-source Python package for PAS analysis, PyPAS, is introduced. PyPAS offers functionalities including Coincidence Doppler Broadening (CDB) filtering, two-dimensional CDB analysis with DB and resolution extraction, and computation of lineshape parameters (S and W). Furthermore, it integrates modules for generating thermal positron implantation profiles based on established models, solving positron diffusion equations using finite-difference methods and optimizing diffusion length. This work presents the architecture of the PyPAS package and the validation results and demonstrates the application of the package through case studies.",
+      "pdf_path": "data/holdout_papers/pdfs/arxiv_2509.08023v2.pdf",
+      "structure": {
+        "sections": [
+          "abstract",
+          "introduction",
+          "related_work",
+          "conclusion",
+          "references"
+        ],
+        "missing_sections": [
+          "method",
+          "results"
+        ],
+        "word_count": 4911,
+        "abstract_words": 205,
+        "figures": 7,
+        "tables": 2,
+        "references": 11
+      }
+    },
+    {
+      "paper_id": "arxiv:2607.05559v1",
+      "title": "EquiFiLM: Charge-Conditioned Equivariant Force Fields via Feature-wise Linear Modulation",
+      "authors": [
+        "Samuel Sahel-Schackis",
+        "Ken-ichi Nomura",
+        "Aiichiro Nakano",
+        "Matthias F. Kling",
+        "Thomas Linker"
+      ],
+      "published_date": "2026-07-06",
+      "domain": "Physics",
+      "category": "physics.chem-ph",
+      "url": "http://arxiv.org/abs/2607.05559v1",
+      "pdf_url": "https://arxiv.org/pdf/2607.05559v1",
+      "abstract": "Foundation machine learning force fields (MLFFs) such as MACE-MP-0 and UMA cover broad chemical space at near density functional theory (DFT) accuracy. However, they assume equilibrium ground-state physics and do not natively handle externally induced changes to the electronic state, such as charging, applied fields, or electronic excitation, which limits their use for driven processes such as photoexcitation and charge injection. We propose EquiFiLM, a lightweight extension that adds continuous external conditioning to any equivariant foundation MLFF via a per-layer Feature-wise Linear Modulation (FiLM) block, learning externally driven changes to the potential energy surface from minimal training data. The block modulates only scalar channels and preserves E(3)-equivariance exactly. We demonstrate the recipe on charged liquid water with the foundation model MACE-MatPES as the backbone, yielding E-MACE. On the four training charges, E-MACE delivers a $3.1\\times$ reduction in force RMSE ($21.3$ to $6.96$ meV/$\\mathring{A}$) and a $61\\times$ reduction in per-atom energy RMSE ($6.1$ to $0.1$ meV/atom) over a baseline without EquiFiLM trained on the same data, at indistinguishable inference cost. Across seven held-out interpolation and extrapolation charges, force RMSE stays within $18-61$ meV/$\\mathring{A}$ and energy RMSE within $0.7-5.4$ meV/atom. The model runs stable molecular dynamics across the full range tested and predicts the charge-dependent first-shell response of the reduced pair distribution function probed by ultrafast electron diffraction. Adding this conditioning axis to the foundation requires only a few thousand DFT-labeled frames, against the $\\approx 10^8$ structures of a charge-aware foundation trained from scratch. The recipe is backbone- and conditioning-agnostic: it applies without architectural change to any equivariant MLFF with scalar interaction-layer channels.",
+      "pdf_path": "data/holdout_papers/pdfs/arxiv_2607.05559v1.pdf",
+      "structure": {
+        "sections": [
+          "abstract",
+          "introduction",
+          "method",
+          "results",
+          "discussion",
+          "related_work",
+          "conclusion",
+          "references",
+          "experiments"
+        ],
+        "missing_sections": [],
+        "word_count": 10762,
+        "abstract_words": 271,
+        "figures": 12,
+        "tables": 8,
+        "references": 33
+      }
+    }
+  ]
+}
